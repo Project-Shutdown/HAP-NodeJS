@@ -1,0 +1,12 @@
+{
+  "accessorys": [
+    {
+      "name": "ExamplePC",
+      "WakeUPonLAN": true,
+      "ip": "192.168.0.4",
+      "mac": "71:AD:1F:31:7E:12",
+      "password": "031-45-154",
+      "allowShutdown": true
+    }
+  ]
+}

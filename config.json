@@ -1,0 +1,12 @@
+{
+  "accessorys": [
+    {
+      "name": "MACBOOKPROOOOO",
+      "WakeUPonLAN": false,
+      "ip": "192.168.0.84",
+      "mac": "71:AD:1F:31:7E:12",
+      "password": "031-45-154",
+      "allowShutdown": true
+    }
+  ]
+}
