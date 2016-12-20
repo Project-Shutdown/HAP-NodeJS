@@ -14,7 +14,7 @@ const async = require('async');
 let accessorys = [];
 
 Sync(function () {
-    async.each.sync(null, config.accessorys, (current) => {
+    async.each.sync(null, config.accessorys, (current, callback) => {
         const PCStatusUUID = uuid.generate(current.mac);
         const PCStatus = new Accessory(`${current.name} Status`, PCStatusUUID);
         PCStatus.username = current.mac;
